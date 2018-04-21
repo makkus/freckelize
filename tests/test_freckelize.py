@@ -7,7 +7,6 @@ import pytest
 
 from click.testing import CliRunner
 
-from freckelize import freckelize
 from freckelize import cli
 
 

@@ -13,7 +13,7 @@ with open('HISTORY.rst') as history_file:
 
 requirements = [
     'Click>=6.7',
-    'freckles>=0.5.5'
+    'freckles>=0.5.4'
 ]
 
 setup_requirements = ['pytest-runner', ]
@@ -24,28 +24,24 @@ setup(
     author="Markus Binsteiner",
     author_email='makkus@frkl.io',
     classifiers=[
-        'Development Status :: 2 - Pre-Alpha',
+        'Development Status :: 4 - Beta',
         'Intended Audience :: Developers',
         'License :: OSI Approved :: GNU General Public License v3 (GPLv3)',
         'Natural Language :: English',
         "Programming Language :: Python :: 2",
         'Programming Language :: Python :: 2.7',
-        'Programming Language :: Python :: 3',
-        'Programming Language :: Python :: 3.4',
-        'Programming Language :: Python :: 3.5',
-        'Programming Language :: Python :: 3.6',
     ],
     description="Data-centric environment management",
     entry_points={
         'console_scripts': [
-            'freckelize=freckelize.cli:main',
+            'freckelize=freckelize.cli:cli',
         ],
     },
     install_requires=requirements,
     license="GNU General Public License v3",
     long_description=readme + '\n\n' + history,
     include_package_data=True,
-    keywords='freckelize',
+    keywords='freckelize freckles ansible provisioning',
     name='freckelize',
     packages=find_packages(include=['freckelize']),
     setup_requires=setup_requirements,
