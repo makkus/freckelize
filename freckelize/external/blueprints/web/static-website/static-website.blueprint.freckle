@@ -1,0 +1,6 @@
+doc:
+  short_help: "A very simple static html page."
+  help: |
+    This blueprint creates a simple static webpage, consisting of a single html file ('index.html').
+
+    It uses the 'static-website' adapter ( https://github.com/freckles-io/adapters/tree/master/web/static-website ) to install and configure the 'nginx' webserver, with the option of requesting and setting up "let's encrypt" certificates.

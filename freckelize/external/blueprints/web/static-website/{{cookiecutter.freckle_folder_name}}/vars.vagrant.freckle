@@ -1,0 +1,12 @@
+- freckle:
+    owner: "{{ cookiecutter.freckle_owner }}"
+    group: "{{ cookiecutter.freckle_group }}"
+
+- static-website:
+    static_website_domain: {{ cookiecutter.static_website_domain }} # ip address or domain name used by this server
+    static_website_port: {{ cookiecutter.static_website_port }}  # port the webserver listens to
+    letsencrypt_email: {{ cookiecutter.letsencrypt_email }}  # if not 'none', the adapter will request a letsencrypt https certificate, and use this email address in the process
+
+- vagrant-dev:
+    vagrant_dev_provisioners:
+      - virtualbox

@@ -1,0 +1,8 @@
+{
+    "freckle_folder_name": "static-website",
+    "freckle_owner": "www-data",
+    "freckle_group": "www-data",
+    "static_website_domain": "127.0.0.1",
+    "static_website_port": 80,
+    "letsencrypt_email": "none"
+}

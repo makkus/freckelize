@@ -1,0 +1,9 @@
+[submodule "freckelize/external/adapters"]
+	path = freckelize/external/adapters
+	url = https://github.com/freckles-io/adapters.git
+[submodule "freckelize/external/roles"]
+	path = freckelize/external/roles
+	url = https://github.com/freckles-io/freckelize-roles.git
+[submodule "freckelize/external/blueprints"]
+	path = freckelize/external/blueprints
+	url = https://github.com/freckles-io/blueprints.git
